@@ -6,7 +6,7 @@ def write_to_json(path, data):
         json.dump(data, the_file)
 
 
-def add_to_json(path,data):
+def add_to_json(path, data):
     the_file = open(path)
     json_data = json.load(the_file)
     with open(path, "w") as the_file:
@@ -19,3 +19,5 @@ def read_from_json(path):
     data = json.load(the_file)
     the_file.close()
     return data
+
+

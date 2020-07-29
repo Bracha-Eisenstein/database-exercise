@@ -1,1 +1,1 @@
-{"num of tables": 1, "Students": {"num of files": 1, "num of lines": 100, "fields": [{"ID": "int"}, {"First": "str"}, {"Last": "str"}, {"Birthday": "datetime"}], "primary key": "ID"}}
+{"num of tables": 1, "Students": {"num of files": 1, "num of lines": 100, "fields": [{"ID": "int"}, {"First": "str"}, {"Last": "str"}, {"Birthday": "datetime"}], "primary key": "ID", "indexes": []}}
